@@ -87,11 +87,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35800bfd18dca92439ec00c6eb7475b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _SpeedMovment: 251
-  _JumpForce: 6.7
-  _FallMultiplier: 2
-  _Rb: {fileID: 3500336462605914421}
-  _Joystick: {fileID: 0}
+  speedMovement: 227
+  jumpForce: 7.8
+  fallMultiplier: 4
+  rb: {fileID: 3500336462605914421}
+  joystick: {fileID: 0}
 --- !u!114 &503182626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6252ac974c11e90419e5ebcbd51667b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Animator: {fileID: 3500336463274088225}
+  animator: {fileID: 3500336463274088225}
 --- !u!114 &503182632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f5d61597335d548be5afa1a7f54b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _SpriteRenderer: {fileID: 3500336463274088224}
+  spriteRenderer: {fileID: 3500336463274088224}
 --- !u!114 &1583474832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,8 +130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d9573ec1e7bcf46a30d36aa8363a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _GroundoChecker: {fileID: 3500336462638237417}
-  _WhatIsGround: Ground
+  groundChecker: {fileID: 3500336462638237417}
+  whatIsGround: Ground
 --- !u!1 &3500336462638237416
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,7 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3500336462638237417}
   m_Layer: 0
-  m_Name: GrowndDetector
+  m_Name: GroundDetector
   m_TagString: Untagged
   m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
